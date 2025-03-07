@@ -1,14 +1,14 @@
 # Block18Workshop-WritingTestSpecifications
 
-<!-- Key: 
+Key: 
 Q: Question/Prompt; 
 A: Answer; 
-T: Test Specs; -->
+T: Test Specs;
 
 1) Unit Tests:
-<!-- Q. Prompt: 
+Q. Prompt: 
 - A function called "multiplication" that returns the product of the two input numbers.
-- Expect [action] to be [some result] -->
+- Expect [action] to be [some result]
 A. 
 Expect multiplication(num1,num2) to be a number;
 Expect multiplication(num1,num2) to return/output the total/product of the 2 input numbers;
@@ -21,10 +21,10 @@ T.
 
 
 
-<!-- Q. Prompt:
+Q. Prompt:
 - a function called "concatOdds" takes two arrays of integers as arguments. It should return a single array that only contains the odd numbers, in ascending order, from both of the arrays.
 Example: concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1])
-...should result in [-1, 1, 3, 9, 15] -->
+...should result in [-1, 1, 3, 9, 15]
 A. 
 Expect concatOdds(arr1,arr2) to accept 2 arrays[] of integers as arguments
 Expect concatOdds(arr1,arr2) to filter out non-odd numbers
@@ -39,8 +39,8 @@ T.
 
 
 2) Functional Tests
-<!-- Q. Prompt: 
-- Write in a more natural langauge -->
+Q. Prompt: 
+- Write in a more natural langauge
 A. 
 -the user will be able to click the checkout section where a list of their items will show in their shopping cart
 -the feature will allow the user to checkout and be prompted to checkout as a guest or a logged in user
